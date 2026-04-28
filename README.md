@@ -26,11 +26,11 @@ app.use('/api/items', itemRoutes);
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port 
 ${PORT}`));
--------------------------
+
 In order to use Render we have to change a part of package. Json in the
 back-end.
 Add the "start": "node server.js", to the scripts. It is required by the Railway. 
------
+
 railway> back-end as the root folder (settings)
 --variables tab-- add the MONGO_URI variable. (Auto suggested)
 Go to settings and generate a public domain--.
