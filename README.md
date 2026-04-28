@@ -41,6 +41,8 @@ axios.get(`${import.meta.env.VITE_APP_URL}/api/items`);
 netlify
 base d - frontend , build - npm run build , publish - frontend/dist, add key pair,  Add the VITE_APP_URL
 
-
+git add .
+git commit -m ""
+git push
 
 
